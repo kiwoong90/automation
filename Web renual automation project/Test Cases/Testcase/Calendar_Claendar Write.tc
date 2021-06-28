@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test</name>
+   <name>Calendar_Claendar Write</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e822900e-55c3-4ba0-9836-9e8d32ffabe9</testCaseGuid>
+   <testCaseGuid>703ef96d-7814-4c63-b8f5-877b6ec47c5e</testCaseGuid>
 </TestCaseEntity>

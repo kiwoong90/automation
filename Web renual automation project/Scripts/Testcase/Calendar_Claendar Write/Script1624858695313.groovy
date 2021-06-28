@@ -17,21 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Calendar/Menu_Calendar'))
 
-WebUI.navigateToUrl('https://www-staging-blue.kidsnote.com/member/login')
+WebUI.click(findTestObject('Calendar_Create Button'))
 
-WebUI.setText(findTestObject('Object Repository/Page_/Page_/input__username'), 'kdnh16')
+WebUI.click(findTestObject('Common/Choose_Class Button'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_/Page_/input__password'), 'SFTQUhjBfIY=')
+WebUI.click(findTestObject('Choose_all Class Button'))
 
-WebUI.click(findTestObject('Object Repository/Page_/Page_/input__username'))
+WebUI.click(findTestObject('Common/Class_Choose confirm Button'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_/Page_/input__password'), '9NLz+4tGZcQ=')
+WebUI.click(findTestObject('Common/Title_input box'))
 
-WebUI.click(findTestObject('Object Repository/Page_/Page_/input__username'))
+WebUI.setText(findTestObject('Common/Title_input box'), '일정표 테스트 Calendar TEST ')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_/Page_/input__password'), 'SFTQUhjBfIY=')
+WebUI.click(findTestObject('Common/textarea__input box'))
 
-WebUI.click(findTestObject('Object Repository/Page_/Page_/button_'))
+WebUI.setText(findTestObject('Common/textarea__input box'), 'Test 일정표 작성 테스트')
+
+WebUI.click(findTestObject('Calendar/Calendar_sticker image'))
+
+WebUI.click(findTestObject('Calendar_Send button'))
 

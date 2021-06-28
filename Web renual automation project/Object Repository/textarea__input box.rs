@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>My info</name>
+   <name>textarea__input box</name>
    <tag></tag>
-   <elementGuidId>97e2f973-5b73-4e82-9e9d-db38639fed34</elementGuidId>
+   <elementGuidId>701d2a97-02b4-46b6-9b80-6695be558d9c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div[3]/div/div[2]/div</value>
+         <value>(//textarea[@name='content'])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.css-193rmjd.e1vnw9sb1</value>
+         <value>div.css-bkzewh.e1kt6kxg0 > textarea[name=&quot;content&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,62 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>name</name>
       <type>Main</type>
-      <value>button</value>
+      <value>content</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>13</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>일정표는 알림을 보내지 않습니다.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>css-193rmjd e1vnw9sb1</value>
+      <value>esywtil2 css-gtjvv4 e1kt6kxg1</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>킴헬리</value>
+      <value>5000</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;css-l72pm4 e1vpkhif0&quot;]/div[@class=&quot;css-qlmv3a ec87p7x0&quot;]/div[@class=&quot;css-1qcuei0 ec87p7x1&quot;]/div[@class=&quot;css-1beqtmj ec87p7x3&quot;]/div[@class=&quot;css-ke2px5 e1vnw9sb0&quot;]/div[@class=&quot;css-193rmjd e1vnw9sb1&quot;]</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;css-l72pm4 e1vpkhif0&quot;]/div[@class=&quot;css-11bjru6 eaj8y9l0&quot;]/main[@class=&quot;css-19t32er eaj8y9l1&quot;]/form[1]/div[@class=&quot;css-1bze9uh ech34xo0&quot;]/section[@class=&quot;css-1xn3edc ech34xo1&quot;]/div[@class=&quot;css-79elbk esywtil0&quot;]/div[@class=&quot;css-bkzewh e1kt6kxg0&quot;]/textarea[@class=&quot;esywtil2 css-gtjvv4 e1kt6kxg1&quot;]</value>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//textarea[@name='content'])[2]</value>
+   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div[3]/div/div[2]/div</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='chevron_right'])[1]/following::div[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='kdnh16'])[1]/preceding::div[1]</value>
+      <value>//div[@id='app']/div/div[3]/main/form/div[2]/section[4]/div[2]/div[2]/textarea</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div[2]/div</value>
+      <value>//div[2]/textarea</value>
    </webElementXpaths>
 </WebElementEntity>

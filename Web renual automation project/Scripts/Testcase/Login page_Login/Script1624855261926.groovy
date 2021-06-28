@@ -19,5 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www-staging-blue.kidsnote.com/')
+WebUI.navigateToUrl('https://www-staging-blue.kidsnote.com/member/login')
+
+WebUI.click(findTestObject('Common/ID_input box'))
+
+WebUI.setText(findTestObject('Common/ID_input box'), 'kdnh16')
+
+WebUI.click(findTestObject('Common/password_input box'))
+
+WebUI.setText(findTestObject('Common/password_input box'), '111111')
+
+WebUI.click(findTestObject('Common/Login_Button'))
 

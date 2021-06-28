@@ -17,3 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('Common/Roles Option Button'))
+
+WebUI.click(findTestObject('Common/Choose Role_captain'))
+
+WebUI.click(findTestObject('Common/roles confirm button'))
+

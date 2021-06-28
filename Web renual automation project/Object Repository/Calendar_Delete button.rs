@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>My info</name>
+   <name>Calendar_Delete button</name>
    <tag></tag>
-   <elementGuidId>97e2f973-5b73-4e82-9e9d-db38639fed34</elementGuidId>
+   <elementGuidId>7ac23d8e-5261-4258-b817-2eba4b0f56ce</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div[3]/div/div[2]/div</value>
+         <value>(//button[@type='button'])[13]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.css-193rmjd.e1vnw9sb1</value>
+         <value>button.css-1fc4i6g.ek2f9wh0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,12 +21,12 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>type</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
@@ -35,48 +35,48 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>css-193rmjd e1vnw9sb1</value>
+      <value>css-1fc4i6g ek2f9wh0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>킴헬리</value>
+      <value>삭제</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;css-l72pm4 e1vpkhif0&quot;]/div[@class=&quot;css-qlmv3a ec87p7x0&quot;]/div[@class=&quot;css-1qcuei0 ec87p7x1&quot;]/div[@class=&quot;css-1beqtmj ec87p7x3&quot;]/div[@class=&quot;css-ke2px5 e1vnw9sb0&quot;]/div[@class=&quot;css-193rmjd e1vnw9sb1&quot;]</value>
+      <value>/html[1]/body[@class=&quot;ReactModal__Body--open&quot;]/div[@class=&quot;css-osppwj-Modal&quot;]/div[@class=&quot;css-stt1ew-overlayBase css-1yp3ub7-base css-1blfftk-overlayAfterOpen&quot;]/div[@class=&quot;css-dm30qo-base css-oq8p4e-base css-648c1s-afterOpen&quot;]/div[@class=&quot;css-1t89z6p e1mqonvc14&quot;]/div[@class=&quot;css-ivqpth e1mqonvc15&quot;]/button[@class=&quot;css-1fc4i6g ek2f9wh0&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div[3]/div/div[2]/div</value>
+      <value>(//button[@type='button'])[13]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='chevron_right'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='수정'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='kdnh16'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='월요일'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div[2]/div</value>
+      <value>//div[3]/div/button[2]</value>
    </webElementXpaths>
 </WebElementEntity>

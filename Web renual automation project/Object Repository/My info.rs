@@ -3,7 +3,7 @@
    <description></description>
    <name>My info</name>
    <tag></tag>
-   <elementGuidId>97e2f973-5b73-4e82-9e9d-db38639fed34</elementGuidId>
+   <elementGuidId>5eb2807c-01d9-44b2-ae84-c5c85e4225bf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

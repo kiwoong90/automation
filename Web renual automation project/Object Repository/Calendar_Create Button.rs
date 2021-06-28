@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>My info</name>
+   <name>Calendar_Create Button</name>
    <tag></tag>
-   <elementGuidId>97e2f973-5b73-4e82-9e9d-db38639fed34</elementGuidId>
+   <elementGuidId>6c9c1d0b-8856-45e7-804b-a21e545e5715</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div[3]/div/div[2]/div</value>
+         <value>//button[@type='button']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.css-193rmjd.e1vnw9sb1</value>
+         <value>button.css-1p4dbkd.ek2f9wh0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,12 +21,12 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>role</name>
+      <name>type</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
@@ -35,48 +35,55 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>css-193rmjd e1vnw9sb1</value>
+      <value>css-1p4dbkd ek2f9wh0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>킴헬리</value>
+      <value>create일정표 작성</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;css-l72pm4 e1vpkhif0&quot;]/div[@class=&quot;css-qlmv3a ec87p7x0&quot;]/div[@class=&quot;css-1qcuei0 ec87p7x1&quot;]/div[@class=&quot;css-1beqtmj ec87p7x3&quot;]/div[@class=&quot;css-ke2px5 e1vnw9sb0&quot;]/div[@class=&quot;css-193rmjd e1vnw9sb1&quot;]</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;css-l72pm4 e1vpkhif0&quot;]/div[@class=&quot;css-11bjru6 eaj8y9l0&quot;]/main[@class=&quot;css-19t32er eaj8y9l1&quot;]/div[@class=&quot;css-1pm72pr e17tysyk0&quot;]/div[@class=&quot;css-1x82q2s e17tysyk1&quot;]/div[@class=&quot;css-1rflyq e17tysyk3&quot;]/button[@class=&quot;css-1p4dbkd ek2f9wh0&quot;]</value>
    </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div[3]/div/div[2]/div</value>
+      <value>//div[@id='app']/div/div[3]/main/div/div/div/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='chevron_right'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='일정표'])[2]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='kdnh16'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='글을 작성할때 표시되는 호칭입니다.'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div[2]/div</value>
+      <value>//div/button</value>
    </webElementXpaths>
 </WebElementEntity>

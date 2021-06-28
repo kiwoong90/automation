@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Logout Button</name>
+   <name>Calendar_Detail</name>
    <tag></tag>
-   <elementGuidId>cb324d23-555b-4191-b65d-58f23eb87f6b</elementGuidId>
+   <elementGuidId>e05407b6-6b4b-4fde-9a85-71e6594a90cb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='로그아웃'])[1]//*[name()='svg'][1]</value>
+         <value>//div[@id='app']/div/div[3]/main/div[3]/div[2]/div/div[2]/div/div/p[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>p.css-ycfugw.ekuxd363</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,69 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>svg</value>
+      <value>p</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>viewBox</name>
+      <name>class</name>
       <type>Main</type>
-      <value>0 0 24 24</value>
+      <value>css-ycfugw ekuxd363</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>focusable</name>
+      <name>text</name>
       <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>presentation</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-hidden</name>
-      <type>Main</type>
-      <value>true</value>
+      <value>일정표 테스트 Calendar TEST</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;css-l72pm4 e1vpkhif0&quot;]/div[@class=&quot;css-qlmv3a ec87p7x0&quot;]/div[@class=&quot;css-1qcuei0 ec87p7x1&quot;]/div[@class=&quot;css-1beqtmj ec87p7x3&quot;]/div[@class=&quot;css-ke2px5 e1vnw9sb0&quot;]/div[@class=&quot;css-1liftfk e1vnw9sb4&quot;]/div[@class=&quot;css-1hgga17 e1vnw9sb5&quot;]/ul[1]/li[2]/button[@class=&quot;css-j48zhk e1vnw9sb7&quot;]/svg[1]</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;css-l72pm4 e1vpkhif0&quot;]/div[@class=&quot;css-11bjru6 eaj8y9l0&quot;]/main[@class=&quot;css-19t32er eaj8y9l1&quot;]/div[@class=&quot;css-1akrzi4 e1v5wirg0&quot;]/div[@class=&quot;css-wes3ci e1v5wirg2&quot;]/div[@class=&quot;css-1sg6hhf e1204wqn0&quot;]/div[@class=&quot;css-11l18o e1204wqn6&quot;]/div[@class=&quot;css-12654b8 ekuxd360&quot;]/div[@class=&quot;css-1rz7y7o ekuxd361&quot;]/p[@class=&quot;css-ycfugw ekuxd363&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='로그아웃'])[1]//*[name()='svg'][1]</value>
+      <value>//div[@id='app']/div/div[3]/main/div[3]/div[2]/div/div[2]/div/div/p[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='내 정보'])[1]/following::*[name()='svg'][1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='전체반'])[1]/following::p[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='settings'])[1]/preceding::*[name()='svg'][1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='오늘'])[1]/following::p[33]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='프로필 설정'])[1]/preceding::*[name()='svg'][1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='전체반'])[2]/preceding::p[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='전체반'])[3]/preceding::p[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/p[2]</value>
    </webElementXpaths>
 </WebElementEntity>
