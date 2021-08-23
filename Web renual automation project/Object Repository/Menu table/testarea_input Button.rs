@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>testarea_input Button</name>
+   <tag></tag>
+   <elementGuidId>8a4189b7-927f-49e2-8825-3d66f28eabf2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>textarea.esywtil2.css-1xticvj.e1kt6kxg1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[3]/main/form/div[3]/div[2]/div/div/div[2]/div/div[2]/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>작성된 내용이 없습니다.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>3</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>esywtil2 css-1xticvj e1kt6kxg1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>500</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;css-l72pm4 e1vpkhif0&quot;]/div[@class=&quot;css-gn3h35 e46bqtm0&quot;]/main[@class=&quot;css-cm57s6 e46bqtm1&quot;]/form[1]/div[@class=&quot;css-h62oou e1ccyn9j0&quot;]/div[@class=&quot;css-5lv5jy e182v0wi0&quot;]/div[@class=&quot;css-0 e182v0wi4&quot;]/div[@class=&quot;css-ria67 e182v0wi3&quot;]/div[@class=&quot;css-x1tpob etjh7hu0&quot;]/div[@class=&quot;css-79elbk esywtil0&quot;]/div[@class=&quot;css-bkzewh e1kt6kxg0&quot;]/textarea[@class=&quot;esywtil2 css-1xticvj e1kt6kxg1&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[3]/main/form/div[3]/div[2]/div/div/div[2]/div/div[2]/textarea</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/textarea</value>
+   </webElementXpaths>
+</WebElementEntity>

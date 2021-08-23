@@ -6,12 +6,12 @@
    <elementGuidId>1342edd4-fedf-41a9-8552-064d460f0300</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//textarea[@name='content'])[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.css-bkzewh.e1kt6kxg0 > textarea[name=&quot;content&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//textarea[@name='content'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

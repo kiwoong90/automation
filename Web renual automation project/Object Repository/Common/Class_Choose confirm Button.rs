@@ -6,12 +6,12 @@
    <elementGuidId>235fd4c3-af17-4ec7-a500-b8c71e161e50</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2011-2021 Kids Note, Inc. All rights reserved.'])[1]/following::span[4]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.css-1wsv1em.ek2f9wh0 > span.css-1n2mv2k.ek2f9wh1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2011-2021 Kids Note, Inc. All rights reserved.'])[1]/following::span[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

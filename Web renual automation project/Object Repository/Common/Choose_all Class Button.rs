@@ -6,12 +6,12 @@
    <elementGuidId>c1b8177f-c12a-4221-8836-0576c6fa4401</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2011-2021 Kids Note, Inc. All rights reserved.'])[1]/following::*[name()='svg'][2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>label.css-1vben6a.e1b3pn4p4 > svg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='© 2011-2021 Kids Note, Inc. All rights reserved.'])[1]/following::*[name()='svg'][2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
